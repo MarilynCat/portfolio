@@ -7,12 +7,12 @@ import { Link } from "react-router-dom";
 export function NaviBar() {
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar collapseOnSelect expand="lg" >
                 <Navbar.Brand>Полина Макарова</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responcive-navbar-nav"/>
                 <Navbar.Collapse id="responcive-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link><Link to="/home">Главная</Link></Nav.Link>
+                        <Nav.Link><Link to="/">Главная</Link></Nav.Link>
                         <Nav.Link><Link to="/about">Обо мне</Link></Nav.Link>
                         <Nav.Link><Link to="/portfolio">Проекты</Link></Nav.Link>
                         <Nav.Link><Link to="/contacts">Контакты</Link></Nav.Link>

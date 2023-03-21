@@ -211,3 +211,36 @@ body {
   margin-top: 50px;
   border: 1px solid #000000;
 }
+
+.social-items {
+  position: absolute;
+  margin-left: 188px;
+  margin-top: 235px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.social-item1 {
+  margin-bottom: 25px;
+}
+
+.social-item2 {
+  margin-bottom: 25px;
+}
+
+.skills-block {
+  margin-left: auto;
+}
+
+.skills__title {
+  width: 123px;
+  height: 38px;
+  margin-top: 70px;
+  margin-left: 130px;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+}

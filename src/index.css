@@ -72,6 +72,10 @@ body {
 
 }
 
+.navbar-nav {
+
+}
+
 .navbar-nav a {
   text-align: center;
   width: 270px;
@@ -121,9 +125,11 @@ body {
   color: var(--black);
   font-weight: 700;
 }
+
+
 /* ------------------------------------------------------------------------ */
 .home__title {
-  width: 540px;
+
   height: 128px;
   margin-top: 319px;
   margin-left: 130px;
@@ -141,16 +147,16 @@ body {
 .home-block__image img {
   z-index: 2;
   position: absolute;
-  width: 300px;
-  height: 300px;
+  max-width: 20%;
+  min-height: 20%;
   margin-left: 635px;
   margin-top: 80px;
 }
 
 .home-block__image2 img {
   position: absolute;
-  width: 300px;
-  height: 300px;
+  max-width: 20%;
+  min-height: 20%;
   margin-left: 740px;
   margin-top: 145px;
 }
@@ -212,8 +218,12 @@ body {
   border: 1px solid #000000;
 }
 
+.social {
+  position: fixed;
+}
+
 .social-items {
-  position: absolute;
+  position: fixed;
   margin-left: 188px;
   margin-top: 235px;
   display: flex;
@@ -244,3 +254,30 @@ body {
   font-size: 32px;
   line-height: 38px;
 }
+
+.gl-skills-end {
+  position: absolute;
+  width: 75%;
+  height: 0px;
+  margin-left: 73px;
+  margin-top: 15px;
+  border: 1px solid #000000;
+}
+
+.skills-list {
+  padding-left: 60px;
+  padding-top: 60px;
+}
+
+.skills-list h3{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.skills-items {
+  margin-left: 290px;
+}
+

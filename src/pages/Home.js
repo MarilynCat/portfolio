@@ -39,7 +39,30 @@ export const Home = () => (
                     <h2 className="skills__title">
                         Навыки
                     </h2>
-                    <div className="gl-end"></div>
+                    <div className="gl-skills-end"></div>
+                </div>
+            </div>
+            <div className="row skills-list">
+                <div className="col-3 skills-items">
+                    <h3>HTML5</h3>
+                    <img src="/static/img/html-skill.png" alt=""/>
+                    <h3>React</h3>
+                    <img src="/static/img/html-skill.png" alt=""/>
+                </div>
+                <div className="col-3">
+                    <h3>CSS3</h3>
+                    <img src="/static/img/html-skill.png" alt=""/>
+                    <h3>Bootstrap</h3>
+                    <img src="/static/img/html-skill.png" alt=""/>
+                </div>
+                <div className="col-3">
+                    <h3>JavaScript</h3>
+                    <img src="/static/img/html-skill.png" alt=""/>
+                    <h3>Figma</h3>
+                    <img src="/static/img/html-skill.png" alt=""/>
+                </div>
+                <div className="col-10">
+                    <Link to="/about"><button type="submit" className="btn-default mb-3 button1">Подробнее</button></Link>
                 </div>
             </div>
         </div>

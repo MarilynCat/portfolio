@@ -43,26 +43,39 @@ export const Home = () => (
                 </div>
             </div>
             <div className="row skills-list">
-                <div className="col-3 skills-items">
+                <div className="col-3 skills-items skills-col">
                     <h3>HTML5</h3>
                     <img src="/static/img/html-skill.png" alt=""/>
                     <h3>React</h3>
-                    <img src="/static/img/html-skill.png" alt=""/>
+                    <img src="/static/img/react-skill.png" alt=""/>
                 </div>
-                <div className="col-3">
+                <div className="col-3 skills-col">
                     <h3>CSS3</h3>
-                    <img src="/static/img/html-skill.png" alt=""/>
+                    <img src="/static/img/css-skill.png" alt=""/>
                     <h3>Bootstrap</h3>
-                    <img src="/static/img/html-skill.png" alt=""/>
+                    <img src="/static/img/bootstrap-skill.png" alt=""/>
                 </div>
-                <div className="col-3">
+                <div className="col-3 skills-col">
                     <h3>JavaScript</h3>
-                    <img src="/static/img/html-skill.png" alt=""/>
+                    <img src="/static/img/js-skill.png" alt=""/>
                     <h3>Figma</h3>
-                    <img src="/static/img/html-skill.png" alt=""/>
+                    <img src="/static/img/figma-skill.png" alt=""/>
                 </div>
-                <div className="col-10">
-                    <Link to="/about"><button type="submit" className="btn-default mb-3 button1">Подробнее</button></Link>
+                <div className="col-10 button-skills">
+                    <Link to="/about"><button type="submit" className="btn-default mb-3 button2">Подробнее</button></Link>
+
+                </div>
+            </div>
+
+        </div>
+        <div className="container">
+            <div className="row">
+                <div className="col-10 skills-block">
+                    <div className="gl-projects-top"></div>
+                    <h2 className="skills__title">
+                        Проекты
+                    </h2>
+                    <div className="gl-skills-end"></div>
                 </div>
             </div>
         </div>

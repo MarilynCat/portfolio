@@ -104,6 +104,8 @@ body {
 .button1 {
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -112,8 +114,8 @@ body {
   gap: 10px;
   color: var(--white);
   position: absolute;
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   margin-left: 350px;
   margin-top: 80px;
   background: var(--black);
@@ -121,6 +123,31 @@ body {
 }
 
 .button1:hover {
+  background: var(--green);
+  color: var(--black);
+  font-weight: 700;
+}
+
+.button2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  color: var(--white);
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: var(--black);
+  border-radius: 75px;
+}
+
+.button2:hover {
   background: var(--green);
   color: var(--black);
   font-weight: 700;
@@ -162,7 +189,7 @@ body {
 }
 
 .vl {
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 0px;
   margin-left: -355px;
@@ -210,6 +237,15 @@ body {
 }
 
 .gl-end {
+  position: absolute;
+  width: 75%;
+  height: 0px;
+  margin-left: 73px;
+  margin-top: 50px;
+  border: 1px solid #000000;
+}
+
+.gl-projects-top {
   position: absolute;
   width: 75%;
   height: 0px;
@@ -275,9 +311,29 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
+  margin-bottom: 15px;
 }
 
 .skills-items {
-  margin-left: 290px;
+  margin-left: 260px;
 }
 
+.skills-col {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.skills-col img {
+  margin-bottom: 40px;
+  width: 80%;
+}
+
+.button-skills {
+  display: flex;
+  justify-content: center;
+  margin-left: 150px;
+  margin-bottom: 100px;
+}

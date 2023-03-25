@@ -61,21 +61,48 @@ export const Home = () => (
                     <h3>Figma</h3>
                     <img src="/static/img/figma-skill.png" alt=""/>
                 </div>
-                <div className="col-10 button-skills">
-                    <Link to="/about"><button type="submit" className="btn-default mb-3 button2">Подробнее</button></Link>
+                {/*<div className="col-10 button-skills">*/}
+                {/*    <Link to="/about"><button type="submit" className="btn-default mb-3 button2">Подробнее</button></Link>*/}
 
-                </div>
+                {/*</div>*/}
             </div>
 
         </div>
         <div className="container">
             <div className="row">
-                <div className="col-10 skills-block">
+                <div className="col-10 projects-block">
                     <div className="gl-projects-top"></div>
-                    <h2 className="skills__title">
+                    <h2 className="projects__title">
                         Проекты
                     </h2>
                     <div className="gl-skills-end"></div>
+                </div>
+                <div className="col-3 project-block project1">
+                    <img src="/static/img/btickets.jpg" alt=""/>
+                    <div className="project-tech">
+                        <p>HTML CSS JavaScript Bootstrap</p>
+                    </div>
+                    <h2>Btickets</h2>
+                    <p>Лендинг платформы для продажи билетов на мероприятия.</p>
+                    <Link to="/contacts"><button type="submit" className="btn-default mb-3 button3">Посмотреть</button></Link>
+                </div>
+                <div className="col-3 project-block">
+                    <img src="/static/img/btickets.jpg" alt=""/>
+                    <div className="project-tech">
+                        <p>HTML CSS JavaScript Bootstrap</p>
+                    </div>
+                    <h2>Btickets</h2>
+                    <p>Лендинг платформы для продажи билетов на мероприятия.</p>
+                    <Link to="/contacts"><button type="submit" className="btn-default mb-3 button3">Посмотреть</button></Link>
+                </div>
+                <div className="col-3 project-block">
+                    <img src="/static/img/btickets.jpg" alt=""/>
+                    <div className="project-tech">
+                        <p>HTML CSS JavaScript Bootstrap</p>
+                    </div>
+                    <h2>Btickets</h2>
+                    <p>Лендинг платформы для продажи билетов на мероприятия.</p>
+                    <Link to="/contacts"><button type="submit" className="btn-default mb-3 button3">Посмотреть</button></Link>
                 </div>
             </div>
         </div>

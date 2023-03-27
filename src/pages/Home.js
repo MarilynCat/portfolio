@@ -33,9 +33,30 @@ export const Home = () => (
                 </div>
             </div>
         </div>
+
+        <div className="container about">
+            <div className="row">
+                <div className="col-10 about-block">
+                    <h2 id="about" className="about__title">
+                        Обо мне
+                    </h2>
+                    <div className="gl-skills-end"></div>
+                </div>
+                <div className="col-12 about__text">
+                    <p>Привет, меня зовут Полина!</p>
+
+                    <p>Я фронтенд-разработчик самоучка. Только начинаю свой путь, открыта ко всему новому и интересному. Придираюсь к каждому пикселю во время верстки и стремлюсь к совершенству.</p>
+
+                        <p>Так же увлекаюсь веб-дизайном в качестве хобби, для развития чувства прекрасного и насмотренности. Уверена, что это поможет лучше понимать желания клиента и всегда попадать в точку.</p>
+                </div>
+            </div>
+
+        </div>
+
         <div className="container skills">
             <div className="row">
                 <div className="col-10 skills-block">
+                    <div className="gl-projects-top"></div>
                     <h2 className="skills__title">
                         Навыки
                     </h2>
@@ -66,13 +87,13 @@ export const Home = () => (
 
                 {/*</div>*/}
             </div>
-
         </div>
+
         <div className="container">
             <div className="row">
                 <div className="col-10 projects-block">
                     <div className="gl-projects-top"></div>
-                    <h2 className="projects__title">
+                    <h2 id="portfolio" className="projects__title">
                         Проекты
                     </h2>
                     <div className="gl-skills-end"></div>
@@ -83,8 +104,17 @@ export const Home = () => (
                         <p>HTML CSS JavaScript Bootstrap</p>
                     </div>
                     <h2>Btickets</h2>
-                    <p>Лендинг платформы для продажи билетов на мероприятия.</p>
-                    <Link to="/contacts"><button type="submit" className="btn-default mb-3 button3">Посмотреть</button></Link>
+                    <p className="project-description">Верстка лендинга по готовому макету, адаптив.</p>
+                    <a href="https://btickets.ru/"><button type="submit" className="btn-default mb-3 button3">Посмотреть</button></a>
+                </div>
+                <div className="col-3 project-block">
+                    <img src="/static/img/kskpeople.jpg" alt=""/>
+                    <div className="project-tech">
+                        <p>Figma React JavaScript Bootstrap</p>
+                    </div>
+                    <h2>KSKPeople</h2>
+                    <p className="project-description">Разработка прототипа и дизайна, верстка сайта, адаптив.</p>
+                    <a href="http://kskpeople.com/"><button type="submit" className="btn-default mb-3 button3">Посмотреть</button></a>
                 </div>
                 <div className="col-3 project-block">
                     <img src="/static/img/btickets.jpg" alt=""/>
@@ -92,19 +122,34 @@ export const Home = () => (
                         <p>HTML CSS JavaScript Bootstrap</p>
                     </div>
                     <h2>Btickets</h2>
-                    <p>Лендинг платформы для продажи билетов на мероприятия.</p>
-                    <Link to="/contacts"><button type="submit" className="btn-default mb-3 button3">Посмотреть</button></Link>
+                    <p className="project-description">Верстка страниц сайта без макета, адаптив.</p>
+                    <a href="https://btickets.ru/"><button type="submit" className="btn-default mb-3 button3">Посмотреть</button></a>
                 </div>
-                <div className="col-3 project-block">
-                    <img src="/static/img/btickets.jpg" alt=""/>
+                <div className="col-3 project-block project1">
+                    <img src="/static/img/chat.jpg" alt=""/>
                     <div className="project-tech">
-                        <p>HTML CSS JavaScript Bootstrap</p>
+                        <p>Figma</p>
                     </div>
-                    <h2>Btickets</h2>
-                    <p>Лендинг платформы для продажи билетов на мероприятия.</p>
-                    <Link to="/contacts"><button type="submit" className="btn-default mb-3 button3">Посмотреть</button></Link>
+                    <h2>Мессенджер</h2>
+                    <p className="project-description">Редизайн мессенджера для учебного проекта.</p>
+                    <a href="https://www.figma.com/file/zDm8EjBv9SuuDB3RkoDu3Z/Chat-(Copy)?node-id=0-1&t=uFvnEU1h1tCeMvMC-0"><button type="submit" className="btn-default mb-3 button3">Посмотреть</button></a>
                 </div>
             </div>
+        </div>
+
+        <div className="container about">
+            <div className="row">
+                <div className="col-10 about-block">
+                    <h2 id="about" className="about__title">
+                        Контакты
+                    </h2>
+                    <div className="gl-skills-end"></div>
+                </div>
+                <div className="col-12 about__text">
+                   <p> В данный момент ориентирована на фриланс и берусь практически за любую работу ради профессионального роста и саморазвития. Но так же открыта к другим формам трудовой деятельности, если вы горите желанием взять меня под крыло чтобы поделиться званиями и опытом.</p>
+                </div>
+            </div>
+
         </div>
     </main>
 

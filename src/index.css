@@ -169,7 +169,8 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  text-decoration: none;
+  margin-left: 10px;
+  background-color: #fff;
 }
 
 /* ------------------------------------------------------------------------ */
@@ -215,7 +216,7 @@ body {
   border: 1px solid #000000;
   transform: rotate(90deg);
 }
-
+/* ------------------------------------------------------------------------ */
 .vl-social {
   position: absolute;
   width: 200px;
@@ -271,7 +272,7 @@ body {
   margin-top: 50px;
   border: 1px solid #000000;
 }
-
+/* ------------------------------------------------------------------------ */
 .social {
   position: fixed;
 }
@@ -292,14 +293,38 @@ body {
 .social-item2 {
   margin-bottom: 25px;
 }
+/* ------------------------------------------------------------------------ */
+.about-block {
+  margin-left: auto;
+}
 
+.about__title {
+  margin-top: 70px;
+  margin-left: 130px;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.about__text {
+  margin-top: 60px!important;
+}
+
+.about__text p {
+  margin-left: 350px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}
+
+
+/* ------------------------------------------------------------------------ */
 .skills-block {
   margin-left: auto;
 }
 
 .skills__title {
-  width: 123px;
-  height: 38px;
   margin-top: 70px;
   margin-left: 130px;
   font-family: 'Raleway', sans-serif;
@@ -355,7 +380,7 @@ body {
   margin-left: 150px;
   margin-bottom: 100px;
 }
-
+/* ------------------------------------------------------------------------ */
 .projects-block {
   margin-left: auto;
 }
@@ -396,7 +421,8 @@ body {
   flex: none;
   align-self: stretch;
   flex-grow: 0;
-  border: 2px solid #000000;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
 }
 
 .project-tech p {
@@ -412,5 +438,81 @@ body {
   font-weight: 700;
   font-size: 26px;
   margin-top: 20px;
+  padding-left: 10px;
 }
 
+.project-description {
+  padding-left: 10px;
+}
+
+.project-block a {
+  text-decoration: none;
+}
+/* ------------------------------------------------------------------------ */
+.footer {
+  background-color: var(--black);
+  color: var(--white);
+  font-family: 'Playfair Display';
+  z-index: 4;
+}
+
+.footer__logo-img {
+  height: 100px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  object-fit: contain;
+  margin-left: 170px;
+}
+
+.footer__text {
+  margin-left: -130px;
+}
+
+.copyright {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  position: relative;
+  margin-top: 60px;
+}
+
+.footer__contacts {
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+}
+
+.footer__phone {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 190px;
+  justify-content: flex-end;
+}
+
+.footer__phone a {
+  color: var(--white);
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.footer__phone a:hover {
+  color: var(--green);
+}
+
+.footer__mail {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 190px;
+  margin-top: 10px;
+  justify-content: flex-end;
+}
+
+.footer__mail a {
+  color: var(--white);
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.footer__mail a:hover {
+  color: var(--green);
+}

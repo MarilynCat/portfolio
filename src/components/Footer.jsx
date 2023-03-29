@@ -11,7 +11,7 @@ const Footer = () => (
 
                 </div>
                 <div className="col footer__text">
-                    Frontend-разработчик и веб-дизайнер
+                    <p>Frontend-разработчик и веб-дизайнер</p>
                     <div className="col copyright">
                         © 2023 Полина Макарова
                     </div>

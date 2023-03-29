@@ -69,7 +69,7 @@ body {
   font-weight: 700;
   font-size: 48px;
   line-height: 38px;
-
+  margin-left: 20px;
 }
 
 .navbar-nav {
@@ -173,6 +173,11 @@ body {
   background-color: #fff;
 }
 
+.button3:hover {
+  background: var(--green);
+  color: var(--black);
+}
+
 /* ------------------------------------------------------------------------ */
 .home__title {
 
@@ -239,7 +244,7 @@ body {
 
 .gl-top {
   position: absolute;
-  width: 75%;
+  width: 70%;
   height: 0px;
   margin-left: 73px;
   margin-top: 0px;
@@ -248,7 +253,7 @@ body {
 
 .gl-top2 {
   position: absolute;
-  width: 75%;
+  width: 50%;
   height: 0px;
   margin-left: 73px;
   margin-top: 30px;
@@ -257,7 +262,7 @@ body {
 
 .gl-end {
   position: absolute;
-  width: 75%;
+  width: 50%;
   height: 0px;
   margin-left: 73px;
   margin-top: 50px;
@@ -266,10 +271,19 @@ body {
 
 .gl-projects-top {
   position: absolute;
-  width: 75%;
+  width: 50%;
   height: 0px;
   margin-left: 73px;
   margin-top: 50px;
+  border: 1px solid #000000;
+}
+
+.gl-skills-end {
+  position: absolute;
+  width: 70%;
+  height: 0px;
+  margin-left: 73px;
+  margin-top: 15px;
   border: 1px solid #000000;
 }
 /* ------------------------------------------------------------------------ */
@@ -292,6 +306,10 @@ body {
 
 .social-item2 {
   margin-bottom: 25px;
+}
+
+.social-item4 {
+  z-index: 1;
 }
 /* ------------------------------------------------------------------------ */
 .about-block {
@@ -319,6 +337,7 @@ body {
 }
 
 
+
 /* ------------------------------------------------------------------------ */
 .skills-block {
   margin-left: auto;
@@ -332,15 +351,6 @@ body {
   font-weight: 700;
   font-size: 32px;
   line-height: 38px;
-}
-
-.gl-skills-end {
-  position: absolute;
-  width: 75%;
-  height: 0px;
-  margin-left: 73px;
-  margin-top: 15px;
-  border: 1px solid #000000;
 }
 
 .skills-list {
@@ -449,6 +459,91 @@ body {
   text-decoration: none;
 }
 /* ------------------------------------------------------------------------ */
+.contacts-block {
+  margin-left: auto;
+}
+
+.contacts__title {
+  margin-top: 70px;
+  margin-left: 130px;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.contacts__text {
+  margin-top: 60px!important;
+}
+
+.contacts__text p {
+  margin-left: 350px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.contacts-items {
+  margin-top: 60px!important;
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts-items a {
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 20px;
+  color: var(--black);
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.contacts-items a:hover {
+  color: var(--grey);
+}
+
+.contacts-item1 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.contacts-item1 img {
+ margin-right: 5px;
+}
+
+.contacts-item2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.contacts-item2 img {
+  margin-right: 5px;
+}
+
+.contacts-item3 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.contacts-item3 img {
+  margin-right: 5px;
+}
+
+.contacts-item4 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.contacts-item4 img {
+  margin-right: 5px;
+}
+
+
+/* ------------------------------------------------------------------------ */
 .footer {
   background-color: var(--black);
   color: var(--white);
@@ -466,6 +561,10 @@ body {
 
 .footer__text {
   margin-left: -130px;
+}
+
+.footer__text p {
+  margin-top: 40px;
 }
 
 .copyright {
@@ -487,6 +586,7 @@ body {
   flex-direction: row-reverse;
   width: 190px;
   justify-content: flex-end;
+  margin-top: 40px;
 }
 
 .footer__phone a {

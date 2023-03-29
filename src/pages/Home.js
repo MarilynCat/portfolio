@@ -141,7 +141,7 @@ export const Home = () => (
                 <div className="col-8 contacts__text">
                    <p> В данный момент ориентирована на фриланс и берусь практически за любую работу ради профессионального роста и саморазвития. Но так же открыта к другим формам трудовой деятельности, если вы горите желанием взять меня под крыло чтобы поделиться знаниями и опытом.</p>
                 </div>
-                <div className="col-4 contacts-items">
+                <div className="col-md-4 col-sm-12 contacts-items">
                     <a className="contacts-item1" href="https://t.me/p_makarova97" >Telegram<img src="/static/img/send-01.svg" alt="" /></a>
                     <a className="contacts-item2" href="https://wa.me/+79163403090" >WhatsApp<img src="/static/img/wa.svg" alt="" /></a>
                     <a className="contacts-item3" href="https://vk.com/p_makarova97" >ВКонтакте<img src="/static/img/vk.svg" alt="" /></a>

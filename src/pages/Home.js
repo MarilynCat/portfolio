@@ -65,19 +65,19 @@ export const Home = () => (
                 </div>
             </div>
             <div className="row skills-list">
-                <div className="col-3 skills-items skills-col">
+                <div className="col-md-3 col-sm-6 skills-items skills-col">
                     <h3>HTML5</h3>
                     <img src="/static/img/html-skill.png" alt=""/>
                     <h3>React</h3>
                     <img src="/static/img/react-skill.png" alt=""/>
                 </div>
-                <div className="col-3 skills-col">
+                <div className="col-md-3 col-sm-6  skills-col">
                     <h3>CSS3</h3>
                     <img src="/static/img/css-skill.png" alt=""/>
                     <h3>Bootstrap</h3>
                     <img src="/static/img/bootstrap-skill.png" alt=""/>
                 </div>
-                <div className="col-3 skills-col">
+                <div className="col-md-3 col-sm-6  skills-col">
                     <h3>JavaScript</h3>
                     <img src="/static/img/js-skill.png" alt=""/>
                     <h3>Figma</h3>
@@ -138,7 +138,7 @@ export const Home = () => (
                     </h2>
                     <div className="gl-skills-end"></div>
                 </div>
-                <div className="col-8 contacts__text">
+                <div className="col-md-8 col-sm-12 contacts__text">
                    <p> В данный момент ориентирована на фриланс и берусь практически за любую работу ради профессионального роста и саморазвития. Но так же открыта к другим формам трудовой деятельности, если вы горите желанием взять меня под крыло чтобы поделиться знаниями и опытом.</p>
                 </div>
                 <div className="col-md-4 col-sm-12 contacts-items">

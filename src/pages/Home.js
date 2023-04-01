@@ -19,7 +19,7 @@ export const Home = () => (
                 <div className="col-10 home-block">
                     <div className="gl-top"></div>
                     <div className="gl-top2"></div>
-                    <Link to="/contacts"><button type="submit" className="btn-default mb-3 button1">Написать</button></Link>
+                    <a href="#contacts"><button type="submit" className="btn-default mb-3 button1">Написать</button></a>
                     <div className="home-block__image" >
                         <img src="/static/img/Ellipse-photo.png" alt=""/>
                     </div>
@@ -133,7 +133,7 @@ export const Home = () => (
             <div className="row">
                 <div className="col-10 contacts-block">
                     <div className="gl-projects-top"></div>
-                    <h2 id="about" className="contacts__title">
+                    <h2 id="contacts" className="contacts__title">
                         Контакты
                     </h2>
                     <div className="gl-skills-end"></div>

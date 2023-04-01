@@ -12,9 +12,9 @@ export function NaviBar() {
                 <Navbar.Toggle aria-controls="responcive-navbar-nav"/>
                 <Navbar.Collapse id="responcive-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link><Link to="#about">Обо мне</Link></Nav.Link>
-                        <Nav.Link><Link to="#portfolio">Проекты</Link></Nav.Link>
-                        <Nav.Link><Link to="#contacts">Контакты</Link></Nav.Link>
+                        <a href="#about">Обо мне</a>
+                        <a href="#portfolio">Проекты</a>
+                        <a href="#contacts">Контакты</a>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

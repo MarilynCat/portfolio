@@ -30,6 +30,7 @@ export const Home = () => (
                         Кто я?<br/>
                         Frontend-разработчик
                     </h1>
+                    <h2 className="home__title2">и веб-дизайнер</h2>
                     <div className="gl-end"></div>
                 </div>
             </div>
@@ -125,6 +126,24 @@ export const Home = () => (
                     <h2>Мессенджер</h2>
                     <p className="project-description">Редизайн мессенджера для учебного проекта.</p>
                     <a href="https://www.figma.com/file/zDm8EjBv9SuuDB3RkoDu3Z/Chat-(Copy)?node-id=0-1&t=uFvnEU1h1tCeMvMC-0"><button type="submit" className="btn-default mb-3 button3">Посмотреть</button></a>
+                </div>
+                <div className="col-3 project-block project1">
+                    <img src="/static/img/euro-avto.jpg" alt=""/>
+                    <div className="project-tech">
+                        <p>HTML CSS JavaScript Bootstrap</p>
+                    </div>
+                    <h2>EURO-AVTO</h2>
+                    <p className="project-description">Верстка сайта без макета, адаптив.</p>
+                    <a href="https://euro-avto.pro/"><button type="submit" className="btn-default mb-3 button3">Посмотреть</button></a>
+                </div>
+                <div className="col-3 project-block">
+                    <img src="/static/img/2048.jpg" alt=""/>
+                    <div className="project-tech">
+                        <p>Figma</p>
+                    </div>
+                    <h2>Игра 2048</h2>
+                    <p className="project-description">Разработка дизайна игры для учебного проекта.</p>
+                    <a href="https://www.figma.com/file/Ksm0Tz1HyZ6eDLALzIcqb6/2048?node-id=4-113&t=kFM9gAQOI184y0Z3-0"><button type="submit" className="btn-default mb-3 button3">Посмотреть</button></a>
                 </div>
             </div>
         </div>

@@ -80,23 +80,28 @@
     .home__title {
         margin-left: 0;
         margin-top: 350px;
-        margin-bottom: 40px;
     }
+
+    .home__title2 {
+        margin-left: 0;
+        margin-top: 80px;
+    }
+
 
     .button1 {
         display: none;
     }
 
     .home-block__image img {
-        margin-left: 5px;
+        margin-left: 15px;
         max-width: 60%;
-        margin-top: 60px;
+        margin-top: 70px;
     }
 
     .home-block__image2 img {
         margin-left: 70px;
         max-width: 60%;
-        margin-top: 90px;
+        margin-top: 100px;
     }
 
     .about-block {

@@ -180,7 +180,6 @@ body {
 
 /* ------------------------------------------------------------------------ */
 .home__title {
-
   height: 128px;
   margin-top: 319px;
   margin-left: 130px;
@@ -189,6 +188,10 @@ body {
   font-weight: 700;
   font-size: 48.127px;
   line-height: 64px;
+}
+
+.home__title2 {
+  margin-left: 130px;
 }
 
 .home-block {

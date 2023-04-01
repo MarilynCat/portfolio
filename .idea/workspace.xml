@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbea16cf-3e01-4774-94f4-68faa2a51f6d" name="Default Changelist" comment="якоря">
+    <list default="true" id="dbea16cf-3e01-4774-94f4-68faa2a51f6d" name="Default Changelist" comment="рамки">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adaptive.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/adaptive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +45,7 @@
       <workItem from="1679577597506" duration="8923000" />
       <workItem from="1679748139591" duration="6915000" />
       <workItem from="1679770579833" duration="2813000" />
-      <workItem from="1679933260446" duration="28685000" />
+      <workItem from="1679933260446" duration="31176000" />
     </task>
     <task id="LOCAL-00001" summary="ntn">
       <created>1679151910751</created>
@@ -142,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680365226549</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="рамки">
+      <created>1680370954199</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1680370954199</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +183,7 @@
     <MESSAGE value="адаптив2" />
     <MESSAGE value="хостинг" />
     <MESSAGE value="якоря" />
-    <option name="LAST_COMMIT_MESSAGE" value="якоря" />
+    <MESSAGE value="рамки" />
+    <option name="LAST_COMMIT_MESSAGE" value="рамки" />
   </component>
 </project>

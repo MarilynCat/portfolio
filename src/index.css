@@ -120,6 +120,7 @@ body {
   margin-top: 80px;
   background: var(--black);
   border-radius: 75px;
+  transition: background 0.2s ease-in-out;
 }
 
 .button1:hover {
@@ -170,7 +171,9 @@ body {
   font-size: 16px;
   line-height: 19px;
   margin-left: 10px;
+  margin-top: auto;
   background-color: #fff;
+  transition: background 0.2s ease-in-out;
 }
 
 .button3:hover {

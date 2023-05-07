@@ -400,6 +400,7 @@ body {
 .projects-block {
   margin-left: auto;
 }
+
 .projects__title {
   width: 123px;
   height: 38px;
@@ -463,6 +464,8 @@ body {
 
 .project-block a {
   text-decoration: none;
+  margin-top: auto;
+  margin-bottom: 5px;
 }
 /* ------------------------------------------------------------------------ */
 .contacts-block {

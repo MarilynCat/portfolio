@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbea16cf-3e01-4774-94f4-68faa2a51f6d" name="Default Changelist" comment="кнопки посмотреть">
+    <list default="true" id="dbea16cf-3e01-4774-94f4-68faa2a51f6d" name="Default Changelist" comment="анимации заголовков">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/img/2048.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +57,8 @@
       <workItem from="1679933260446" duration="32392000" />
       <workItem from="1681492091524" duration="32000" />
       <workItem from="1681492168591" duration="55000" />
-      <workItem from="1683488015742" duration="6025000" />
+      <workItem from="1683488015742" duration="6789000" />
+      <workItem from="1684476337676" duration="363000" />
     </task>
     <task id="LOCAL-00001" summary="ntn">
       <created>1679151910751</created>
@@ -194,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683489021270</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="анимации заголовков">
+      <created>1683494554467</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1683494554467</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +234,7 @@
     <MESSAGE value="проекты" />
     <MESSAGE value="анимация кнопок" />
     <MESSAGE value="кнопки посмотреть" />
-    <option name="LAST_COMMIT_MESSAGE" value="кнопки посмотреть" />
+    <MESSAGE value="анимации заголовков" />
+    <option name="LAST_COMMIT_MESSAGE" value="анимации заголовков" />
   </component>
 </project>

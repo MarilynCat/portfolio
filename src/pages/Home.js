@@ -164,13 +164,22 @@ export const Home = () => {
                         <a href="https://euro-avto.pro/"><button type="submit" className="btn-default mb-3 button3">Посмотреть</button></a>
                     </div>
                     <div className="col-3 project-block">
-                        <img src="/static/img/2048.jpg" alt=""/>
+                        <img src="/static/img/2048.png" alt=""/>
                         <div className="project-tech">
                             <p>Figma</p>
                         </div>
                         <h2>Игра 2048</h2>
                         <p className="project-description">Разработка дизайна игры для учебного проекта.</p>
-                        <a href="https://www.figma.com/file/Ksm0Tz1HyZ6eDLALzIcqb6/2048?node-id=4-113&t=kFM9gAQOI184y0Z3-0"><button type="submit" className="btn-default mb-3 button3">Посмотреть</button></a>
+                        <a href="https://www.behance.net/gallery/170856453/2048-dizajn-igry"><button type="submit" className="btn-default mb-3 button3">Посмотреть</button></a>
+                    </div>
+                    <div className="col-3 project-block">
+                        <img src="/static/img/slon.png" alt=""/>
+                        <div className="project-tech">
+                            <p>Figma Procreate</p>
+                        </div>
+                        <h2>ООО «СЛОН»</h2>
+                        <p className="project-description">Разработка дизайна логотипа и визитки.</p>
+                        <a href="https://www.behance.net/gallery/170941571/slon-logo-i-vizitka"><button type="submit" className="btn-default mb-3 button3">Посмотреть</button></a>
                     </div>
                 </div>
             </div>
